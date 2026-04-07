@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <h1>CI/CD is Working 🎉</h1>
+      <p>This app is automatically deployed using GitHub Actions and Vercel</p>
+
+      <h2>Services</h2>
+      <ul>
+        <li>Plumbing</li>
+        <li>Wiring</li>
+        <li>Cleaning</li>
+        <li>Swimming</li>
+      </ul>
+
+      <h2>Users</h2>
+      <ul>
+        <li>Leanne Graham</li>
+        <li>Ervin Howell</li>
+        <li>Clementine Bauch</li>
+        <li>Patricia Lebsack</li>
+      </ul>
     </div>
   );
 }
