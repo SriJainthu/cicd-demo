@@ -3,7 +3,7 @@ function App() {
 
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h1>this is my website</h1>
+      <h1>CI/CD implementation</h1>
 
       <p>This change was deployed automatically!</p>
 
